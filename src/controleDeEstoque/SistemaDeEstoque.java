@@ -12,7 +12,7 @@ public class SistemaDeEstoque {
 		return this.id;
 	}
 	
-	public void cadastramento(String nome,float preco,int quantidade,int quantidadeMinima) {
+	public void cadastramento(String nome,double preco,int quantidade,int quantidadeMinima) {
 		Produto produto = new Produto();
 		produto.setNomeDoProduto(nome);
 		produto.setPreco(preco);

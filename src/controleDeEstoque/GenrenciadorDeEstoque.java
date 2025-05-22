@@ -31,7 +31,7 @@ public class GenrenciadorDeEstoque {
 			
 				System.out.println("Digite o o preço do produto: ");
 				String precoStr = entrada.nextLine().replace(",","."); // substitui vírgula por ponto
-				float precoCadastramento = Float.parseFloat(precoStr); // converte para float
+				double precoCadastramento = Double.parseDouble(precoStr); // converte para float
 			
 				System.out.println("Digite a quantidade do produto: ");
 				int quantidadeCadastramento = entrada.nextInt();	
